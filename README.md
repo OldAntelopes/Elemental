@@ -3,6 +3,7 @@
 Public repository for bugtracking &amp; issue management relating to Elemental
 
 Steam Page: https://store.steampowered.com/app/4363750/Elemental/
+
 Reddit Community: https://reddit.com/r/ElementalVJ
 
 Links: https://gamesformay.com/Elemental
