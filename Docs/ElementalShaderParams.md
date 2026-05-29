@@ -4,7 +4,7 @@ The Source Filter component lets you plug fullscreen .fx/hlsl into the Elemental
 
 You can have your shader parameters appear within the standard Elemental UI using a custom comment tag in the shader. Because that becomes another component property just like the others, you can then set your shader constant to be linked to the FFT, BPM, an envelope, a midi or osc controller dial (eventually), etc etc. 
 
-The Source Filters acts on whatever you're mixing through a Source Channel (milkdrop, vid, spout input, outputs from particle systems, or any combination of earlier sources etc); your random milkdrop + dilate or radial blur on FFT Bass is usually worth a basic set in itself. 
+The Source Filter acts on whatever you're mixing through a 'Source Channel' (milkdrop, vid, spout input, outputs from particle systems, or any combination of earlier sources etc). 
 
 **Tips**
 - Use F5 to refresh the shaders
