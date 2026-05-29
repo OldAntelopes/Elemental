@@ -1,5 +1,6 @@
 **Source Filters**
- The Source Filter component lets you plug fullscreen .fx/hlsl into the Elemental render pipeline. A bunch of default, basic filters/shaders are included, all of which can be added, linked and controlled through the control panel, no code required. If you are shader-literate (or know someone who is), you can add your own filters by adding .fx files to the Data/Shaders/Filters/ folder.
+
+The Source Filter component lets you plug fullscreen .fx/hlsl into the Elemental render pipeline. A bunch of default, basic filters/shaders are included, all of which can be added, linked and controlled through the control panel, no code required. If you are shader-literate (or know someone who is), you can add your own filters by adding .fx files to the Data/Shaders/Filters/ folder.
 
 You can have your shader parameters appear within the standard Elemental UI using a custom comment tag in the shader. Because that becomes another component property just like the others, you can then set your shader constant to be linked to the FFT, BPM, an envelope, a midi or osc controller dial (eventually), etc etc. 
 
@@ -12,14 +13,11 @@ The Source Filters acts on whatever you're mixing through a Source Channel (milk
 
 **Elemental UI shader params annotation**
 
-The Elemental shader params annotation allows parameters in the shader to be controlled by UI in the Elemental app.
-
-To expose a shader parameter, a comment block is added after the parameter declaration, for example:
+The Elemental shader params annotation allows parameters in the shader to be controlled by UI in the Elemental app. To add a shader parameter to the UI, a comment block is added after the parameter declaration in the shader, for example:
 
     float BlurAmount = 1.0; // [ELEUI_FLOAT:Blur Amount:0.0|64.0] Default blur radius
 
 The section in square brackets after the comment is parsed by the app to determine the type and properties of the exposed UI.
-
 The format for this annotation is:
 
     // [<FIELD_TYPE>:<NAME>:<MIN_VALUE>|<MAX_VALUE>] <Description>
