@@ -1,4 +1,35 @@
 ---------------------------------------------------------------------------------
+v0.22.0
+-------
+- Added 'Particle Clustered Path' component - updates a bunch of persistent particles with trails along a path
+- Deprecated offset and rotation components, merging them into a single 'transform' one
+- Rework of the render layering pipeline to provide consistency and fix various issues where certain output layers would get displayed incorrectly
+- Various performance optimisations
+- Source blender - made subtract operate as source 1 - source 2  ('subtract both' is  - (source 1 + source2) ). Added outputs to the debug texture view.
+- The main/default camera position is now applied at the end of every channel render process (so that a CameraControllers on one channel does not affect the camera on a different channel)
+- Added 'ignore ch alpha' for particle emitters, which is particularly relevant when chaining emitters through source channels
+- Instance thumbnails fallback loading process. first priority for thumbnails is now to load from/save to the composition/thumbs folder if it exists. 
+- Milkplus toolbar function now works (All active milk components that are in playlist but not-autoplay mode will be advanced to the next preset)
+- Moved the performance/editor mode dropdown off the midbar and replaced it with a View menu
+- Added 'Confirm quit' window with save option
+- Added 'first boot' window to direct newbs to either a full comp or a blank slate
+- Changed the way 'source scale' is applied to mirrors
+- minor/partial refactoring of some common particle features
+- Initialisation status messages on boot window
+- UX: Added 'move to first column' option on channel view -> instance right click popup menu
+- FIXES for:
+- - performance mode option sometimes leaving the window expanded
+- - particle emitter render targets not getting reset when the graphics device is changed (fixes inconsistent output after changing to a different display)
+- - possible crash if any shaders fail to load
+- - Console log not filling the entire window
+- - cases where the active composition name wasnt getting set correctly (e.g. when merging comps, creating new comp, etc)
+- - mappablefunctions not being re-registered correctly after loading a composition (hence midi-mappings would get messed)
+- - Various memory leaks
+- - For circle path 'pitch' property initialising without appropriate range settings
+- - Sourceblender and the debug renderTargets displays sometimes not working in the release build (shutting down the boot window was inadvertedly shutting down some of the main window interface)
+- - the f9 debug RTs view stopped working if the main display device was changed to another monitor (font system wasnt getting correctly reset)
+- - some components (e.g. clustered path, circle path) not fully functioning when first added as a new component ('OnPostInitialise' was only getting called when the component was loaded, not when it was added).
+
 v0.21.5
 -------
 - added support for different value mapping modes
