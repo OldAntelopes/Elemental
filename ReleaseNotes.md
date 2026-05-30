@@ -18,17 +18,17 @@ v0.22.0
 - Initialisation status messages on boot window
 - UX: Added 'move to first column' option on channel view -> instance right click popup menu
 - FIXES for:
-- - performance mode option sometimes leaving the window expanded
-- - particle emitter render targets not getting reset when the graphics device is changed (fixes inconsistent output after changing to a different display)
-- - possible crash if any shaders fail to load
-- - Console log not filling the entire window
-- - cases where the active composition name wasnt getting set correctly (e.g. when merging comps, creating new comp, etc)
-- - mappablefunctions not being re-registered correctly after loading a composition (hence midi-mappings would get messed)
-- - Various memory leaks
-- - For circle path 'pitch' property initialising without appropriate range settings
-- - Sourceblender and the debug renderTargets displays sometimes not working in the release build (shutting down the boot window was inadvertedly shutting down some of the main window interface)
-- - the f9 debug RTs view stopped working if the main display device was changed to another monitor (font system wasnt getting correctly reset)
-- - some components (e.g. clustered path, circle path) not fully functioning when first added as a new component ('OnPostInitialise' was only getting called when the component was loaded, not when it was added).
+  - performance mode option sometimes leaving the window expanded
+  - particle emitter render targets not getting reset when the graphics device is changed (fixes inconsistent output after changing to a different display)
+  - possible crash if any shaders fail to load
+  - Console log not filling the entire window
+  - cases where the active composition name wasnt getting set correctly (e.g. when merging comps, creating new comp, etc)
+  - mappablefunctions not being re-registered correctly after loading a composition (hence midi-mappings would get messed)
+  - Various memory leaks
+  - For circle path 'pitch' property initialising without appropriate range settings
+  - Sourceblender and the debug renderTargets displays sometimes not working in the release build (shutting down the boot window was inadvertedly shutting down some of the main window interface)
+  - the f9 debug RTs view stopped working if the main display device was changed to another monitor (font system wasnt getting correctly reset)
+  - some components (e.g. clustered path, circle path) not fully functioning when first added as a new component ('OnPostInitialise' was only getting called when the component was loaded, not when it was added).
 
 v0.21.5
 -------
