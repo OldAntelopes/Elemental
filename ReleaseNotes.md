@@ -125,8 +125,7 @@ Added source filter component:
 - Added a bunch of initial filters including Radial Blur, offsetRGB, edgeOutline, chromakey etc
 - All the trimmings that allow shader constants to be exposed to the elemental control panel
 - (Filter list is populated by scanning the Data/Shaders/Filters (and Data/Shaders/Filters/User) folder for .fx files)
-Envelope presets
-
+- Envelope presets
 Minor things:
 - Tint colours can now be param linked
 - FIX: changed graphic selection dropdown so it doesnt refresh UI when the dropdown selection changes (as it doesnt need to, and refreshing was causing the dropdown to lose focus and make up/down arrows unusable)
@@ -185,6 +184,8 @@ v0.16
 - Don't display the white squares that were showing for thumbnails that were mid-load or had failed to load.
 - Presets: Updated the default Standard Spout Blender .elemental so it has less kaleido and effects, rearranged the startup presets a bit, Updated some presets to fix offset change
 - UI Icons: Legit Tick icon for menus, added nicer folder icon for the preset browser, Indicator on properties that are FFT linked
+- -Moved all the milkdrop stuff to the public github
+- (Not in demo): (messing about with dmx -DMX raw component for sending DMX512 channel signals out via ftdi (which according to Resolume is (probably rightly) frowned upon coz its niche and awkward, but whatever.. works for me for now.. i have lights i can dick about with and it didn't cost too much))
 - BUGFIXES for:
   - camera controller ; focus on origin now works, camera-aligned sprites (mostly) work
   - occasional crash when scanning folders and shifting around the browser UI
@@ -193,10 +194,6 @@ v0.16
   - the midi mapping being broken
   - the milk preset browser path reverting whenever a path is dragged somewhere
   - occasional threaded shutdown crash if folder browser active when quitting app
-
-Moved all the milkdrop stuff to the public github
-(Not in demo): (messing about with dmx -DMX raw component for sending DMX512 channel signals out via ftdi (which according to Resolume is (probably rightly) frowned upon coz its niche and awkward, but whatever.. works for me for now.. i have lights i can dick about with and it didnt cost too much))
-- (added (/hacked in) bypass option for properties (used by DMX raw))
 
 v0.15
 ------
@@ -225,45 +222,45 @@ v0.14
 
 v0.13
 -----
-Can collapse envelope UI display
-Added behaviour invert flag
-FIX: behaviour mode not getting saved
-Inverted the camera position/orientation so that sprites appear in their normal orientation by default
+- Can collapse envelope UI display
+- Added behaviour invert flag
+- Inverted the camera position/orientation so that sprites appear in their normal orientation by default
+- FIX: behaviour mode not getting saved
 
 v0.12
 -----
-added basic OSC mapping support
-Added FFT Gain
-Various UI tweaks n fixes : slider updates, source channel output selection, added movable constraints to source blend mix slider
-some fixes for non-thread-safe milk playback issues
-source blender channel setting
+- Added basic OSC mapping support
+- Added FFT Gain
+- Various UI tweaks n fixes : slider updates, source channel output selection, added movable constraints to source blend mix slider
+- Some fixes for non-thread-safe milk playback issues
+- Source blender channel setting
 
 v0.11
 -----
-Improvements to trail rendering and added separate controls for fade hold and fade out time
-Fixed fft audio buffer parsing
-Added FFT Vol, FFT Bass, etc property behaviours
-Refactored thumbnail handling, ensuring all thumbnail loading is async
-Added model list (with a (temporary) option similar to sprites of having Models\User folder for adding custom content)
-Improved some bits of the model component
+- Improvements to trail rendering and added separate controls for fade hold and fade out time
+- Fixed fft audio buffer parsing
+- Added FFT Vol, FFT Bass, etc property behaviours
+- Refactored thumbnail handling, ensuring all thumbnail loading is async
+- Added model list (with a (temporary) option similar to sprites of having Models\User folder for adding custom content)
+- Improved some bits of the model component
 
 v0.10
 -----
-Big reworking of the UIX stacking and child rendering logic so that it actually works and makes sense :)
-Envelope phase offset
-Fix for menu bar creating & leaking multiple uix pages
-SpriteList scans for additional sprites in Data\Sprites\User
-Improvements to the Envelope UI, added editable textbox for the speed setting
+- Big reworking of the UIX stacking and child rendering logic so that it actually works and makes sense :)
+- Envelope phase offset
+- Fix for menu bar creating & leaking multiple uix pages
+- SpriteList scans for additional sprites in Data\Sprites\User
+- Improvements to the Envelope UI, added editable textbox for the speed setting
 
 v0.09
 -----
-fix for milk folder and preset mode not getting serialised
-refactored milk component so each has its own milkdrop plugin instance
-changed circle path so all its props are ranges rather than just values
-Basic midi mapping support : Midi-input refactored and driven from Json, added some default apc40 midi mapping options (active and deactivate instances on the colour buttons)
-source channels
-refactored milk audio/fft/loopback stuff so we can manage it separately
-added a special-case rule so that if you add a milk component to an element that consists only of a particle emitter, it automatically sets the particle emitter graphic to the source channel for the milk. Its newb friendly but cheating and JUST NOT RIGHT,so i dont like it and i'll probably remove that at some point.
-added log tab and various status messages from milk initialisation etc
-milk component UI to allow setting of a specific milk preset
-added an FFT/spectrum display to the midbar
+- Refactored milk component so each has its own milkdrop plugin instance
+- Changed circle path so all its props are ranges rather than just values
+- Basic midi mapping support : Midi-input refactored and driven from Json, added some default apc40 midi mapping options (active and deactivate instances on the colour buttons)
+- Source channels
+- Refactored milk audio/fft/loopback stuff so we can manage it separately
+- Added a special-case rule so that if you add a milk component to an element that consists only of a particle emitter, it automatically sets the particle emitter graphic to the source channel for the milk. Its newb friendly but cheating and JUST NOT RIGHT,so i dont like it and i'll probably remove that at some point.
+- Added log tab and various status messages from milk initialisation etc
+- Milk component UI to allow setting of a specific milk preset
+- Added an FFT/spectrum display to the midbar
+- Fix for milk folder and preset mode not getting serialised
