@@ -1,0 +1,163 @@
+{
+	"CONTROL_VALUES":	{
+		"SCALE":	88,
+		"ALPHA":	59,
+		"SPREAD":	64,
+		"PARAM":	2,
+		"BLEND":	0
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Geiss Cycle"
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Tint",
+					"PROPERTIES":	[{
+							"NAME":	"A",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"B",
+							"VALUE":	0.530525,
+							"RANGE_MIN":	0.142857,
+							"RANGE_MAX":	1,
+							"ENVELOPE":	{
+								"MODE":	2,
+								"SPEED":	4,
+								"PHASE_OFFSET":	0,
+								"KEYFRAMES":	[{
+										"TIME":	0,
+										"VAL":	0
+									}, {
+										"TIME":	1,
+										"VAL":	1
+									}]
+							}
+						}, {
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"G",
+							"VALUE":	0.603397,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	1,
+							"ENVELOPE":	{
+								"MODE":	2,
+								"SPEED":	0.500000,
+								"PHASE_OFFSET":	0,
+								"KEYFRAMES":	[{
+										"TIME":	0,
+										"VAL":	0
+									}, {
+										"TIME":	1,
+										"VAL":	1
+									}]
+							}
+						}, {
+							"NAME":	"R",
+							"VALUE":	0.247886,
+							"RANGE_MIN":	0.214286,
+							"RANGE_MAX":	1,
+							"ENVELOPE":	{
+								"MODE":	2,
+								"SPEED":	1,
+								"PHASE_OFFSET":	0,
+								"KEYFRAMES":	[{
+										"TIME":	0,
+										"VAL":	0
+									}, {
+										"TIME":	1,
+										"VAL":	1
+									}]
+							}
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	0.889932,
+							"RANGE_MIN":	0.889932,
+							"RANGE_MAX":	1.140374
+						}, {
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Model Source",
+							"TEXTVALUE":	"Sphere.atm"
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0.100000,
+							"RANGE_MIN":	-4,
+							"RANGE_MAX":	4
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1.097347
+						}, {
+							"NAME":	"Soft edged particles",
+							"VALUE":	0
+						}, {
+							"NAME":	"Source Aspect",
+							"VALUE":	0
+						}, {
+							"NAME":	"Source Channel"
+						}, {
+							"NAME":	"Spout Source",
+							"TEXTVALUE":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"geiss1.png"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-5,
+							"RANGE_MAX":	5
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}]
+		}]
+}

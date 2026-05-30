@@ -1,0 +1,341 @@
+{
+	"CONTROL_VALUES":	{
+		"GRAPHIC":	"<Default>",
+		"SCALE":	39,
+		"ALPHA":	36,
+		"SPREAD":	14,
+		"PARAM":	64,
+		"GRAPHIC_2":	"<Default>"
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Basic Offset Switcher"
+	},
+	"ROOTELEMENT":	{
+		"COMPONENTS":	[]
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Offset",
+					"PROPERTIES":	[{
+							"NAME":	"X",
+							"VALUE":	-0.026406,
+							"RANGE_MIN":	-2.215569,
+							"RANGE_MAX":	2.395209,
+							"ENVELOPE":	{
+								"MODE":	1,
+								"SPEED":	1,
+								"KEYFRAMES":	[{
+										"TIME":	0,
+										"VAL":	0
+									}, {
+										"TIME":	1,
+										"VAL":	1
+									}]
+							}
+						}, {
+							"NAME":	"Y",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Z",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Offset",
+					"PROPERTIES":	[{
+							"NAME":	"X",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Y",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Z",
+							"VALUE":	-0.900000,
+							"RANGE_MIN":	-0.900000,
+							"RANGE_MAX":	0.900000,
+							"ENVELOPE":	{
+								"MODE":	1,
+								"SPEED":	1,
+								"KEYFRAMES":	[{
+										"TIME":	0,
+										"VAL":	0
+									}, {
+										"TIME":	0.500000,
+										"VAL":	0
+									}, {
+										"TIME":	0.500000,
+										"VAL":	1
+									}, {
+										"TIME":	1,
+										"VAL":	1
+									}]
+							}
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}]
+		}]
+}

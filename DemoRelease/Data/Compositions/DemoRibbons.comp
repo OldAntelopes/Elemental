@@ -1,0 +1,3519 @@
+{
+	"COMP_DETAILS":	{
+		"JSON_VERS":	"1",
+		"EXE_VERS":	"0.22.0",
+		"BPM":	105
+	},
+	"CHANNELS":	[{
+			"CHANNEL_NUM":	0,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	101,
+				"ALPHA":	56,
+				"SPREAD":	64,
+				"PARAM":	64,
+				"GRAPHIC_2":	"<Default>"
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"Data\\Presets\\BasicMilkBlenderReactive.elemental",
+					"DISPNAME":	"Milk Blender",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	101,
+						"ALPHA":	54,
+						"SPREAD":	64,
+						"PARAM":	64,
+						"BLEND":	0,
+						"TRANS_TIME":	0,
+						"TRANS_TYPE":	0
+					},
+					"UID":	2281764,
+					"CONTENTDATA":	{
+						"NAME":	"Milk Blender"
+					},
+					"ELEMENTS":	[{
+							"UID":	2281572,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	2281574,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Milk",
+									"UID":	2281586,
+									"PROPERTIES":	[{
+											"NAME":	"Current Preset",
+											"UID":	2281588
+										}, {
+											"NAME":	"Bypass",
+											"UID":	2281587,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	2281589,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Playlist Autoplay",
+											"UID":	2281581,
+											"VAL":	1
+										}, {
+											"NAME":	"Preset Selection",
+											"UID":	2281593,
+											"TXTVAL":	"Playlist"
+										}, {
+											"NAME":	"Preset Path",
+											"UID":	2281592,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\"
+										}, {
+											"NAME":	"Preset",
+											"UID":	2281591,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Geometric\\Wire Trace Mirror\\martin + stahlregen - martin in da mash 12a.milk"
+										}, {
+											"NAME":	"Playlist Shuffle",
+											"UID":	2281580,
+											"VAL":	0
+										}, {
+											"NAME":	"Alpha Mod",
+											"UID":	2281582,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2281590,
+											"VAL":	0
+										}],
+									"Playlist":	{
+										"Refs":	[{
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Dancer\\Swarm\\EoS - nematodes D.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Geometric\\Wire Spiral Flower\\shifter - sinkhole web.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Geometric\\Wire Circles\\EoS - sarc h.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Geometric\\Wire Circles\\EoS - sarc.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Geometric\\Wire Trace Mirror\\martin + stahlregen - martin in da mash 12a.milk"
+											}]
+									}
+								}, {
+									"COMPONENT_TYPE":	"Milk",
+									"UID":	2281605,
+									"PROPERTIES":	[{
+											"NAME":	"Current Preset",
+											"UID":	2281607
+										}, {
+											"NAME":	"Bypass",
+											"UID":	2281606,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	2281608,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Playlist Autoplay",
+											"UID":	2281600,
+											"VAL":	1
+										}, {
+											"NAME":	"Preset Selection",
+											"UID":	2281612,
+											"TXTVAL":	"Playlist"
+										}, {
+											"NAME":	"Preset Path",
+											"UID":	2281611,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\"
+										}, {
+											"NAME":	"Preset",
+											"UID":	2281610,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Dancer\\Hatches\\Jc - Geometry 101.milk"
+										}, {
+											"NAME":	"Playlist Shuffle",
+											"UID":	2281599,
+											"VAL":	0
+										}, {
+											"NAME":	"Alpha Mod",
+											"UID":	2281601,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2281609,
+											"VAL":	1
+										}],
+									"Playlist":	{
+										"Refs":	[{
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Dancer\\Hatches\\Jc - Geometry 101.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Drawing\\Liquid\\amandio c - green machinery 1a hell if i could nz+2 why not, right3 only a persian would.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Drawing\\Fractal\\ShadowHarlequin-DreamingOfFluorescentThings.milk"
+											}, {
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Drawing\\Growth\\amandio c - prime forms 2 nz+ adam kreighble' youtube user-allseeingeye93#p-u-1-Ew6_tqnPYoU.milk"
+											}]
+									}
+								}, {
+									"COMPONENT_TYPE":	"Source Blender",
+									"UID":	2281630,
+									"PROPERTIES":	[{
+											"NAME":	"SrcChan",
+											"UID":	2281617,
+											"VAL":	1
+										}, {
+											"NAME":	"Bypass",
+											"UID":	2281632,
+											"VAL":	0
+										}, {
+											"NAME":	"Model 1",
+											"UID":	2281635,
+											"TXTVAL":	"Sphere.atm"
+										}, {
+											"NAME":	"Spout 1",
+											"UID":	2281645,
+											"TXTVAL":	"NestDrop Deck 1"
+										}, {
+											"NAME":	"Sprite 1",
+											"UID":	2281647,
+											"TXTVAL":	"Default 1"
+										}, {
+											"NAME":	"Source 1",
+											"UID":	2281639,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Sprite 2",
+											"UID":	2281648,
+											"TXTVAL":	"Default 1"
+										}, {
+											"NAME":	"Mix Param Mod",
+											"UID":	2281634,
+											"VAL":	0
+										}, {
+											"NAME":	"Spout 2",
+											"UID":	2281646,
+											"TXTVAL":	"NestDrop Deck 2"
+										}, {
+											"NAME":	"Model 2",
+											"UID":	2281636,
+											"TXTVAL":	"Sphere.atm"
+										}, {
+											"NAME":	"SrcChan 2",
+											"UID":	2281622,
+											"VAL":	0
+										}, {
+											"NAME":	"Source 2",
+											"UID":	2281640,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Mix",
+											"UID":	2281633,
+											"BEH_MODE":	2,
+											"VAL":	0.429029,
+											"RNG_MIN":	0,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Blend Type",
+											"UID":	2281631,
+											"TXTVAL":	"Add"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2281638,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	2281637,
+											"TXTVAL":	"Source Channel"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Emitter",
+									"UID":	2281677,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2281679,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	2281650,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	2281691,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Vel Y",
+											"UID":	2281694,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	2281690,
+											"TXTVAL":	"NestDrop Deck 1"
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	2281651,
+											"VAL":	0
+										}, {
+											"NAME":	"Emit Freq",
+											"UID":	2281680,
+											"VAL":	60,
+											"RNG_MIN":	60,
+											"RNG_MAX":	60
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	2281692,
+											"TXTVAL":	"SunGlow"
+										}, {
+											"NAME":	"Longevity",
+											"UID":	2281682,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	2281652,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	2281653,
+											"VAL":	0
+										}, {
+											"NAME":	"Model Source",
+											"UID":	2281683,
+											"TXTVAL":	"Sphere.atm"
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	2281658,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	2281681,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	2281686,
+											"VAL":	0
+										}, {
+											"NAME":	"Particle Type",
+											"UID":	2281685,
+											"TXTVAL":	"BasicGlow"
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	2281663,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	2281684,
+											"VAL":	0,
+											"RNG_MIN":	-7.482993,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Alpha",
+											"UID":	2281678,
+											"VAL":	1.500000,
+											"RNG_MIN":	1.500000,
+											"RNG_MAX":	2
+										}, {
+											"NAME":	"Scale",
+											"UID":	2281687,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"VelX Param Mod",
+											"UID":	2281696,
+											"VAL":	0
+										}, {
+											"NAME":	"VelY Param Mod",
+											"UID":	2281697,
+											"VAL":	0
+										}, {
+											"NAME":	"VelZ Param Mod",
+											"UID":	2281698,
+											"VAL":	0
+										}, {
+											"NAME":	"Vel X",
+											"UID":	2281693,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Vel Z",
+											"UID":	2281695,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2281674,
+											"VAL":	0
+										}, {
+											"NAME":	"Output Mode",
+											"UID":	2281675
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	1,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	60,
+				"ALPHA":	49,
+				"SPREAD":	64,
+				"PARAM":	61,
+				"GRAPHIC_2":	"<Default>"
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"Data\\Presets\\Tests\\TestCase1\\TrailsTestCase1.elemental",
+					"DISPNAME":	"3xPath Reactive",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	60,
+						"ALPHA":	0,
+						"SPREAD":	64,
+						"PARAM":	61,
+						"BLEND":	0,
+						"TRANS_TIME":	0,
+						"TRANS_TYPE":	0
+					},
+					"UID":	2252176,
+					"CONTENTDATA":	{
+						"NAME":	"3xPath Reactive"
+					},
+					"ELEMENTS":	[{
+							"UID":	1835745,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	1835746,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835756,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	184.918030,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Offset",
+									"UID":	1835765,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	1747650,
+											"VAL":	-0.010154,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.050000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Y Param Mod",
+											"UID":	1747646,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1747644,
+											"VAL":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1747645,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1747647,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1747648,
+											"VAL":	0.025088,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.062000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1747651,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1747649,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835776,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0.600000,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	1,
+											"VAL":	0.063380,
+											"RNG_MIN":	0.063380,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835798,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1.100000,
+											"RNG_MIN":	1.100000,
+											"RNG_MAX":	1.100000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1.655165,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	35,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266106,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	0.500000,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.500000
+										}]
+								}]
+						}, {
+							"UID":	1835816,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Offset",
+									"UID":	1835825,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	1747650,
+											"VAL":	0.006119,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.030000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Y Param Mod",
+											"UID":	1747646,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1747644,
+											"VAL":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1747645,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1747647,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1747648,
+											"VAL":	0.098665,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.040000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1747651,
+											"VAL":	1
+										}, {
+											"NAME":	"Y",
+											"UID":	1747649,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835835,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.400000,
+											"RNG_MIN":	0.400000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	36,
+											"RNG_MIN":	36,
+											"RNG_MAX":	36
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	1.300000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835845,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1772836,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1772837,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1772838,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1772841,
+											"VAL":	0.050000,
+											"RNG_MIN":	0.050000,
+											"RNG_MAX":	0.050000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1772842,
+											"VAL":	0.100000,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1772839,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1772840,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1772843,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1772844,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835856,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0.626761,
+											"RNG_MIN":	0.626761,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0.007042,
+											"RNG_MIN":	0.007042,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	1,
+											"VAL":	0.723070,
+											"RNG_MIN":	0.179577,
+											"RNG_MAX":	1,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.549398,
+														"VAL":	0.062500,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835878,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.250000,
+											"RNG_MIN":	0.250000,
+											"RNG_MAX":	0.250000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	180,
+											"FFTCUSTOM_MAX":	220,
+											"FFTCUSTOM_SCALAR":	6,
+											"VAL":	4.487222,
+											"RNG_MIN":	0.632328,
+											"RNG_MAX":	18,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266170,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}]
+								}]
+						}, {
+							"UID":	1835879,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1944036,
+									"PROPERTIES":	[{
+											"NAME":	"Y Param Mod",
+											"UID":	1944029,
+											"VAL":	0
+										}, {
+											"NAME":	"Z",
+											"UID":	1944033,
+											"VAL":	-0.030277,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.033000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1944022,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1944023,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1944027,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1944024,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1944026,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1944025,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1944028,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1944030,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1944031,
+											"VAL":	0.098665,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.040000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1944035,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1944032,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1944034,
+											"VAL":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835898,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	36,
+											"RNG_MIN":	36,
+											"RNG_MAX":	36
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	4,
+											"DAMPING_MODE":	4,
+											"VAL":	3,
+											"RNG_MIN":	0.400000,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835908,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1772836,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1772837,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1772838,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1772841,
+											"VAL":	-0.150000,
+											"RNG_MIN":	-0.150000,
+											"RNG_MAX":	-0.150000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1772842,
+											"VAL":	-0.400000,
+											"RNG_MIN":	-0.500000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1772839,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1772840,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1772843,
+											"VAL":	0.310000,
+											"RNG_MIN":	0.310000,
+											"RNG_MAX":	0.310000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1772844,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835919,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0.176056,
+											"RNG_MIN":	0.176056,
+											"RNG_MAX":	0.531690
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.323944
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.792253
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0.080986,
+											"RNG_MIN":	0.080986,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835941,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1.800000,
+											"RNG_MIN":	1.800000,
+											"RNG_MAX":	1.800000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.800000,
+											"RNG_MIN":	0.800000,
+											"RNG_MAX":	0.800000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	340,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	2,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266240,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	2,
+											"RNG_MIN":	2,
+											"RNG_MAX":	2
+										}]
+								}]
+						}, {
+							"UID":	1835942,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1835957,
+									"PROPERTIES":	[{
+											"NAME":	"Y Param Mod",
+											"UID":	1835950,
+											"VAL":	0
+										}, {
+											"NAME":	"Z",
+											"UID":	1835954,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1835943,
+											"VAL":	1
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1835944,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1835948,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1835945,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1835947,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1835946,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1835949,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1835951,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1835952,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1835956,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1835953,
+											"VAL":	-20,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	-20
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1835955,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	2154345,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2154336,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	2154337,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	2154338,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	2154341,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Pitch",
+											"UID":	2154342,
+											"VAL":	0.100000,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	2154339,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	2154340,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	2154343,
+											"BEH_MODE":	1,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Axis",
+											"UID":	2154344,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835808,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1749033,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1749034,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1749035,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1749038,
+											"VAL":	1.600000,
+											"RNG_MIN":	1.600000,
+											"RNG_MAX":	1.600000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1749039,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1749036,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1749037,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1749040,
+											"BEH_INVERT":	true,
+											"BEH_MODE":	1,
+											"VAL":	-0.200000,
+											"RNG_MIN":	-0.600000,
+											"RNG_MAX":	-0.200000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1749041,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Camera Controller",
+									"UID":	1835815,
+									"PROPERTIES":	[{
+											"NAME":	"Dir Pos Offset",
+											"UID":	1749028,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749026,
+											"VAL":	0
+										}, {
+											"NAME":	"Blend",
+											"UID":	1749027,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Up Pos Offset",
+											"UID":	1749029,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Right Pos Offset",
+											"UID":	1749030,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Origin focus",
+											"UID":	1749031,
+											"VAL":	1
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	2,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	60,
+				"ALPHA":	58,
+				"SPREAD":	64,
+				"PARAM":	61,
+				"GRAPHIC_2":	"<Default>"
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"Data\\Presets\\Tests\\TestCase1\\TrailsTestCase2.elemental",
+					"DISPNAME":	"4xPath Reactive",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	60,
+						"ALPHA":	58,
+						"SPREAD":	64,
+						"PARAM":	61,
+						"BLEND":	0,
+						"TRANS_TIME":	0,
+						"TRANS_TYPE":	0
+					},
+					"UID":	2252406,
+					"CONTENTDATA":	{
+						"NAME":	"4xPath Reactive"
+					},
+					"ELEMENTS":	[{
+							"UID":	1815332,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	1815333,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1815343,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	184.918030,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Offset",
+									"UID":	1815352,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	1747650,
+											"VAL":	0.024594,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.050000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Y Param Mod",
+											"UID":	1747646,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1747644,
+											"VAL":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1747645,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1747647,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1747648,
+											"VAL":	-0.241979,
+											"RNG_MIN":	-0.400000,
+											"RNG_MAX":	-0.200000,
+											"ENVELOPE":	{
+												"SPEED":	0.062000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1747651,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1747649,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1815363,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1815385,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"User\\burning.png"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1.100000,
+											"RNG_MIN":	1.100000,
+											"RNG_MAX":	1.100000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1.655165,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	35,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266338,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	0.500000,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.500000
+										}]
+								}]
+						}, {
+							"UID":	1815529,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1835515,
+									"PROPERTIES":	[{
+											"NAME":	"Y Param Mod",
+											"UID":	1835508,
+											"VAL":	0
+										}, {
+											"NAME":	"Z",
+											"UID":	1835512,
+											"VAL":	0.024594,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.050000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1835501,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1835502,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1835506,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1835503,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1835505,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1835504,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1835507,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1835509,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1835510,
+											"VAL":	-0.189110,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.500000,
+											"ENVELOPE":	{
+												"SPEED":	0.062500,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1835514,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1835511,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1835513,
+											"VAL":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1934147,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1934138,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1934139,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1934140,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1934143,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1934144,
+											"VAL":	-0.500000,
+											"RNG_MIN":	-1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1934141,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1934142,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1934145,
+											"VAL":	-0.800000,
+											"RNG_MIN":	-0.800000,
+											"RNG_MAX":	-0.800000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1934146,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1815343,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	184.918030,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1815363,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.577465,
+											"RNG_MAX":	0.800000
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.073944
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.285211
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1815385,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"Shapes/Triangle2"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	60,
+											"FFTCUSTOM_MAX":	65,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	26.722658,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	50,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266408,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	0.250000,
+											"RNG_MIN":	0.250000,
+											"RNG_MAX":	0.250000
+										}]
+								}]
+						}, {
+							"UID":	1815530,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Offset",
+									"UID":	1815352,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	1747650,
+											"VAL":	0.024594,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.050000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Y Param Mod",
+											"UID":	1747646,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1747644,
+											"VAL":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1747645,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1747647,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1747648,
+											"VAL":	0.111094,
+											"RNG_MIN":	-0.600000,
+											"RNG_MAX":	0.300000,
+											"ENVELOPE":	{
+												"SPEED":	0.062000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1747651,
+											"VAL":	1
+										}, {
+											"NAME":	"Y",
+											"UID":	1747649,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1815343,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	184.918030,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1934157,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1934148,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1934149,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1934150,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1934153,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1934154,
+											"VAL":	0.400000,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.560000
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1934151,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1934152,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1934155,
+											"VAL":	0.370000,
+											"RNG_MIN":	0.370000,
+											"RNG_MAX":	0.370000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1934156,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1815363,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.316901,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.035211,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1815385,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	2,
+											"RNG_MIN":	1.500000,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1.961228,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	10,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266472,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}]
+								}]
+						}, {
+							"UID":	1815531,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1835546,
+									"PROPERTIES":	[{
+											"NAME":	"Y Param Mod",
+											"UID":	1835539,
+											"VAL":	0
+										}, {
+											"NAME":	"Z",
+											"UID":	1835543,
+											"VAL":	0.078109,
+											"RNG_MIN":	-0.080000,
+											"RNG_MAX":	0.080000,
+											"ENVELOPE":	{
+												"SPEED":	0.067000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1835532,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1835533,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1835537,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1835534,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1835536,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1835535,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1835538,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1835540,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1835541,
+											"VAL":	0.108037,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.400000,
+											"ENVELOPE":	{
+												"SPEED":	0.091000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1835545,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1835542,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1835544,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1815343,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1747415,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1747416,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1747417,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	184.918030,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1934167,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1934158,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1934159,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1934160,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1934163,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1934164,
+											"VAL":	0.877476,
+											"RNG_MIN":	-1,
+											"RNG_MAX":	1,
+											"ENVELOPE":	{
+												"SPEED":	0.125000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1934161,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1934162,
+											"VAL":	1.500000,
+											"RNG_MIN":	1.500000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1934165,
+											"VAL":	0.600000,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	0.630000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1934166,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1815363,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.070000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"A Param Mod",
+											"UID":	1749019,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"B Param Mod",
+											"UID":	1749018,
+											"VAL":	0
+										}, {
+											"NAME":	"R Param Mod",
+											"UID":	1749016,
+											"VAL":	0
+										}, {
+											"NAME":	"G Param Mod",
+											"UID":	1749017,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1815385,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite (Default)",
+											"UID":	1747430,
+											"TXTVAL":	"Flare1"
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0.800000,
+											"RNG_MIN":	0.800000,
+											"RNG_MAX":	0.800000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	100,
+											"FFTCUSTOM_MAX":	105,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1.728512,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	20,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2266542,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	0.200000,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	0.500000,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.500000
+										}]
+								}]
+						}, {
+							"UID":	1835531,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1835530,
+									"PROPERTIES":	[{
+											"NAME":	"Y Param Mod",
+											"UID":	1835523,
+											"VAL":	0
+										}, {
+											"NAME":	"Z",
+											"UID":	1835527,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1835516,
+											"VAL":	1
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1835517,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1835521,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1835518,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1835520,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1835519,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X Param Mod",
+											"UID":	1835522,
+											"VAL":	0
+										}, {
+											"NAME":	"Z Param Mod",
+											"UID":	1835524,
+											"VAL":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1835525,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1835529,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1835526,
+											"VAL":	-20,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	-20
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1835528,
+											"VAL":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1815395,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1749033,
+											"VAL":	0
+										}, {
+											"NAME":	"Pitch Param Mod",
+											"UID":	1749034,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale Param Mod",
+											"UID":	1749035,
+											"VAL":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1749038,
+											"VAL":	3,
+											"RNG_MIN":	3,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1749039,
+											"VAL":	0.500000,
+											"RNG_MIN":	-1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Speed Param Mod",
+											"UID":	1749036,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1749037,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Speed",
+											"UID":	1749040,
+											"BEH_MODE":	1,
+											"VAL":	0,
+											"RNG_MIN":	0.050000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1749041,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Camera Controller",
+									"UID":	1815402,
+									"PROPERTIES":	[{
+											"NAME":	"Dir Pos Offset",
+											"UID":	1749028,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749026,
+											"VAL":	0
+										}, {
+											"NAME":	"Blend",
+											"UID":	1749027,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Up Pos Offset",
+											"UID":	1749029,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Right Pos Offset",
+											"UID":	1749030,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Origin focus",
+											"UID":	1749031,
+											"VAL":	1
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	3,
+			"CONTROL_VALUES":	{
+		},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[]
+		}]
+}

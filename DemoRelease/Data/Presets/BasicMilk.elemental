@@ -1,0 +1,120 @@
+{
+	"CONTROL_VALUES":	{
+		"SCALE":	101,
+		"ALPHA":	54,
+		"SPREAD":	64,
+		"PARAM":	64,
+		"BLEND":	0
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Basic Milk"
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Milk",
+					"PROPERTIES":	[{
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"Output",
+							"TEXTVALUE":	"Source Channel"
+						}, {
+							"NAME":	"Preset"
+						}, {
+							"NAME":	"Preset Path",
+							"TEXTVALUE":	"Data\\Presets\\Milkdrop2\\"
+						}, {
+							"NAME":	"Preset Selection",
+							"TEXTVALUE":	"Random in folder"
+						}, {
+							"NAME":	"Selection Name"
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"TEXTVALUE":	"Source"
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"TEXTVALUE":	"Sphere.atm"
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0.100000,
+							"RANGE_MIN":	-7.482993,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Soft edged particles",
+							"VALUE":	0
+						}, {
+							"NAME":	"Source Aspect",
+							"VALUE":	0
+						}, {
+							"NAME":	"Source Channel"
+						}, {
+							"NAME":	"Spout Source",
+							"TEXTVALUE":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}]
+		}]
+}

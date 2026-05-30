@@ -1,0 +1,116 @@
+{
+	"CONTROL_VALUES":	{
+		"GRAPHIC":	"orb1",
+		"SCALE":	119,
+		"ALPHA":	28,
+		"SPREAD":	18,
+		"PARAM":	64,
+		"GRAPHIC_2":	"<Default>"
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Scatter Orbs"
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Offset",
+					"PROPERTIES":	[{
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.683761,
+							"RANGE_MAX":	0.683761
+						}, {
+							"NAME":	"Y",
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.683761,
+							"RANGE_MAX":	0.769231
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.854701
+						}, {
+							"NAME":	"Model Source",
+							"TEXTVALUE":	"Sphere.atm"
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Source Channel",
+							"TEXTVALUE":	""
+						}, {
+							"NAME":	"Spout Source",
+							"TEXTVALUE":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Sprite",
+							"TEXTVALUE":	"orb1"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Vel X",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"VALUE":	0
+						}]
+				}]
+		}]
+}

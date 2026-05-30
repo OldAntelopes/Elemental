@@ -1,0 +1,205 @@
+{
+	"CONTROL_VALUES":	{
+		"SCALE":	128,
+		"ALPHA":	16,
+		"SPREAD":	64,
+		"PARAM":	64,
+		"BLEND":	0,
+		"TRANS_TIME":	0,
+		"TRANS_TYPE":	0
+	},
+	"UID":	158050,
+	"CONTENTDATA":	{
+		"NAME":	"Milk Basic"
+	},
+	"ELEMENTS":	[{
+			"UID":	940297,
+			"COMPONENTS":	[]
+		}, {
+			"UID":	940299,
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Milk",
+					"UID":	940311,
+					"PROPERTIES":	[{
+							"NAME":	"Alpha Mod",
+							"UID":	940307,
+							"VAL":	1,
+							"RNG_MIN":	1,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Bypass",
+							"UID":	940312,
+							"VAL":	0
+						}, {
+							"NAME":	"Current Preset",
+							"UID":	940303
+						}, {
+							"NAME":	"Output",
+							"UID":	940313,
+							"TXTVAL":	"Source Channel"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	940308,
+							"VAL":	0
+						}, {
+							"NAME":	"Playlist Autoplay",
+							"UID":	940306,
+							"VAL":	1
+						}, {
+							"NAME":	"Playlist Shuffle",
+							"UID":	940305,
+							"VAL":	0
+						}, {
+							"NAME":	"Preset",
+							"UID":	940304,
+							"TXTVAL":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Objects\\amandio c - feeling well 2.milk"
+						}, {
+							"NAME":	"Preset Path",
+							"UID":	940302,
+							"TXTVAL":	"Data\\Presets\\Milkdrop2\\"
+						}, {
+							"NAME":	"Preset Selection",
+							"UID":	940314,
+							"TXTVAL":	"Playlist"
+						}],
+					"Playlist":	{
+						"Refs":	[{
+								"Preset":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Objects\\amandio c - feeling well 2.milk"
+							}, {
+								"Preset":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Organics\\evisceral white-hot zero-point.milk"
+							}, {
+								"Preset":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Primitives\\amandio c - living boxes 2.milk"
+							}, {
+								"Preset":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Reaction\\Liquid Closeup\\Chemlock - Metal Mud.milk"
+							}, {
+								"Preset":	"D:\\GameDev\\Games\\Elemental\\Exe\\Data\\Presets\\Milkdrop2\\StarterPack1\\Reaction\\Liquid Blobby\\f wen blew my wallet - hooray for fed.milk"
+							}]
+					}
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"UID":	940344,
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"UID":	940345,
+							"VAL":	2,
+							"RNG_MIN":	2,
+							"RNG_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"UID":	940346,
+							"VAL":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"UID":	940347,
+							"VAL":	60,
+							"RNG_MIN":	60,
+							"RNG_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"UID":	940348,
+							"TXTVAL":	"Source"
+						}, {
+							"NAME":	"Longevity",
+							"UID":	940349,
+							"VAL":	0.300000,
+							"RNG_MIN":	0.300000,
+							"RNG_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"UID":	940350,
+							"TXTVAL":	"Sphere.atm"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	940341,
+							"VAL":	0
+						}, {
+							"NAME":	"Output Mode",
+							"UID":	940342
+						}, {
+							"NAME":	"Particle Fade In",
+							"UID":	940322,
+							"VAL":	0.010000,
+							"RNG_MIN":	0.010000,
+							"RNG_MAX":	0.010000
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"UID":	940351,
+							"VAL":	0.100000,
+							"RNG_MIN":	-15,
+							"RNG_MAX":	15
+						}, {
+							"NAME":	"Particle Type",
+							"UID":	940352,
+							"TXTVAL":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"UID":	940353,
+							"VAL":	0
+						}, {
+							"NAME":	"Scale",
+							"UID":	940354,
+							"VAL":	1,
+							"RNG_MIN":	1,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Spout Source",
+							"UID":	940357,
+							"TXTVAL":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Sprite",
+							"UID":	940358,
+							"TXTVAL":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"UID":	940359,
+							"TXTVAL":	"SunGlow"
+						}, {
+							"NAME":	"SrcChan",
+							"UID":	940328,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"UID":	940320,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"UID":	940319,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Rel Rot Align",
+							"UID":	940321,
+							"VAL":	0
+						}, {
+							"NAME":	"Vel X",
+							"UID":	940360,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"UID":	940361,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"UID":	940362,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"UID":	940363,
+							"VAL":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"UID":	940364,
+							"VAL":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"UID":	940365,
+							"VAL":	0
+						}]
+				}]
+		}]
+}

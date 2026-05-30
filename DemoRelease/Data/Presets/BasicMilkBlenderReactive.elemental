@@ -1,0 +1,321 @@
+{
+	"CONTROL_VALUES":	{
+		"SCALE":	101,
+		"ALPHA":	66,
+		"SPREAD":	64,
+		"PARAM":	64,
+		"BLEND":	0,
+		"TRANS_TIME":	0,
+		"TRANS_TYPE":	0
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Milk Blender"
+	},
+	"ELEMENTS":	[{
+			"UID":	2286102,
+			"COMPONENTS":	[]
+		}, {
+			"UID":	2286104,
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Milk",
+					"UID":	2286116,
+					"PROPERTIES":	[{
+							"NAME":	"Alpha Mod",
+							"UID":	2286112,
+							"VAL":	1,
+							"RNG_MIN":	1,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Bypass",
+							"UID":	2286117,
+							"VAL":	0
+						}, {
+							"NAME":	"Current Preset",
+							"UID":	2286118
+						}, {
+							"NAME":	"Output",
+							"UID":	2286119,
+							"TXTVAL":	"Source Channel"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	2286120,
+							"VAL":	0
+						}, {
+							"NAME":	"Playlist Autoplay",
+							"UID":	2286111,
+							"VAL":	1
+						}, {
+							"NAME":	"Playlist Shuffle",
+							"UID":	2286110,
+							"VAL":	0
+						}, {
+							"NAME":	"Preset",
+							"UID":	2286121,
+							"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Sparkle\\Jewel\\goody + martin - crystal palace - neurogenesis2 roam3.milk"
+						}, {
+							"NAME":	"Preset Path",
+							"UID":	2286122,
+							"TXTVAL":	"Data\\Presets\\Milkdrop2\\"
+						}, {
+							"NAME":	"Preset Selection",
+							"UID":	2286123,
+							"TXTVAL":	"Playlist"
+						}],
+					"Playlist":	{
+						"Refs":	[{
+								"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Sparkle\\Jewel\\goody + martin - crystal palace - neurogenesis2 roam3.milk"
+							}]
+					}
+				}, {
+					"COMPONENT_TYPE":	"Milk",
+					"UID":	2286135,
+					"PROPERTIES":	[{
+							"NAME":	"Alpha Mod",
+							"UID":	2286131,
+							"VAL":	1,
+							"RNG_MIN":	1,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Bypass",
+							"UID":	2286136,
+							"VAL":	0
+						}, {
+							"NAME":	"Current Preset",
+							"UID":	2286137
+						}, {
+							"NAME":	"Output",
+							"UID":	2286138,
+							"TXTVAL":	"Source Channel"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	2286139,
+							"VAL":	1
+						}, {
+							"NAME":	"Playlist Autoplay",
+							"UID":	2286130,
+							"VAL":	1
+						}, {
+							"NAME":	"Playlist Shuffle",
+							"UID":	2286129,
+							"VAL":	0
+						}, {
+							"NAME":	"Preset",
+							"UID":	2286140,
+							"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Dancer\\Glowsticks Mirror\\142.milk"
+						}, {
+							"NAME":	"Preset Path",
+							"UID":	2286141,
+							"TXTVAL":	"Data\\Presets\\Milkdrop2\\"
+						}, {
+							"NAME":	"Preset Selection",
+							"UID":	2286142,
+							"TXTVAL":	"Playlist"
+						}],
+					"Playlist":	{
+						"Refs":	[{
+								"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Dancer\\Glowsticks Mirror\\142.milk"
+							}]
+					}
+				}, {
+					"COMPONENT_TYPE":	"Source Blender",
+					"UID":	2286160,
+					"PROPERTIES":	[{
+							"NAME":	"Blend Type",
+							"UID":	2286161,
+							"TXTVAL":	"Add"
+						}, {
+							"NAME":	"Bypass",
+							"UID":	2286162,
+							"VAL":	0
+						}, {
+							"NAME":	"Mix",
+							"UID":	2286163,
+							"BEH_MODE":	2,
+							"VAL":	0,
+							"RNG_MIN":	0,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Mix Param Mod",
+							"UID":	2286164,
+							"VAL":	0
+						}, {
+							"NAME":	"Model 1",
+							"UID":	2286165,
+							"TXTVAL":	"Sphere.atm"
+						}, {
+							"NAME":	"Model 2",
+							"UID":	2286166,
+							"TXTVAL":	"Sphere.atm"
+						}, {
+							"NAME":	"Output",
+							"UID":	2286167,
+							"TXTVAL":	"Source Channel"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	2286168,
+							"VAL":	0
+						}, {
+							"NAME":	"Source 1",
+							"UID":	2286169,
+							"TXTVAL":	"Source"
+						}, {
+							"NAME":	"Source 2",
+							"UID":	2286170,
+							"TXTVAL":	"Source"
+						}, {
+							"NAME":	"Spout 1",
+							"UID":	2286175,
+							"TXTVAL":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Spout 2",
+							"UID":	2286176,
+							"TXTVAL":	"NestDrop Deck 2"
+						}, {
+							"NAME":	"Sprite 1",
+							"UID":	2286177,
+							"TXTVAL":	"Default 1"
+						}, {
+							"NAME":	"Sprite 2",
+							"UID":	2286178,
+							"TXTVAL":	"Default 1"
+						}, {
+							"NAME":	"SrcChan",
+							"UID":	2286147,
+							"VAL":	0
+						}, {
+							"NAME":	"SrcChan 2",
+							"UID":	2286152,
+							"VAL":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"UID":	2286207,
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"UID":	2286208,
+							"VAL":	1.500000,
+							"RNG_MIN":	1.500000,
+							"RNG_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"UID":	2286209,
+							"VAL":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"UID":	2286210,
+							"VAL":	60,
+							"RNG_MIN":	60,
+							"RNG_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"UID":	2286211,
+							"TXTVAL":	"Source"
+						}, {
+							"NAME":	"Longevity",
+							"UID":	2286212,
+							"VAL":	0.300000,
+							"RNG_MIN":	0.100000,
+							"RNG_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"UID":	2286213,
+							"TXTVAL":	"Sphere.atm"
+						}, {
+							"NAME":	"Output Channel Num",
+							"UID":	2286204,
+							"VAL":	0
+						}, {
+							"NAME":	"Output Mode",
+							"UID":	2286205
+						}, {
+							"NAME":	"Particle Fade In",
+							"UID":	2286193,
+							"VAL":	0.010000,
+							"RNG_MIN":	0.010000,
+							"RNG_MAX":	0.010000
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"UID":	2286214,
+							"VAL":	0.100000,
+							"RNG_MIN":	-7.482993,
+							"RNG_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"UID":	2286215,
+							"TXTVAL":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"UID":	2286216,
+							"VAL":	0
+						}, {
+							"NAME":	"Scale",
+							"UID":	2286217,
+							"VAL":	1,
+							"RNG_MIN":	1,
+							"RNG_MAX":	1
+						}, {
+							"NAME":	"Spout Source",
+							"UID":	2286220,
+							"TXTVAL":	"NestDrop Deck 1"
+						}, {
+							"NAME":	"Sprite",
+							"UID":	2286221,
+							"TXTVAL":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"UID":	2286222,
+							"TXTVAL":	"SunGlow"
+						}, {
+							"NAME":	"SrcChan",
+							"UID":	2286188,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"UID":	2286181,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"UID":	2286180,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Ignore Ch Alpha",
+							"UID":	2286183,
+							"VAL":	0
+						}, {
+							"NAME":	"Temp Rel Rot Align",
+							"UID":	2286182,
+							"VAL":	0
+						}, {
+							"NAME":	"Vel X",
+							"UID":	2286223,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"UID":	2286224,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"UID":	2286225,
+							"VAL":	0,
+							"RNG_MIN":	-0.200000,
+							"RNG_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"UID":	2286226,
+							"VAL":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"UID":	2286227,
+							"VAL":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"UID":	2286228,
+							"VAL":	0
+						}]
+				}]
+		}]
+}

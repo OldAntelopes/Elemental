@@ -1,0 +1,1432 @@
+{
+	"CONTROL_VALUES":	{
+		"GRAPHIC":	"Flare1",
+		"SCALE":	56,
+		"ALPHA":	21,
+		"SPREAD":	10,
+		"PARAM":	64,
+		"BLEND":	0
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Blue-Gold"
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	1.001620,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	4.500000
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.254656
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Circle Path",
+					"PROPERTIES":	[{
+							"NAME":	"Angle Offset",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.570796,
+							"RANGE_MIN":	1.570796,
+							"RANGE_MAX":	1.570796
+						}, {
+							"NAME":	"Axis",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Y"
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	0.940171,
+							"RANGE_MIN":	0.940171,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Circle Path",
+					"PROPERTIES":	[{
+							"NAME":	"Angle Offset",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	3.141593,
+							"RANGE_MIN":	3.141593,
+							"RANGE_MAX":	3.141593
+						}, {
+							"NAME":	"Axis",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Y"
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	0.940000,
+							"RANGE_MIN":	0.940000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Circle Path",
+					"PROPERTIES":	[{
+							"NAME":	"Angle Offset",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	-1.570796,
+							"RANGE_MIN":	-1.596547,
+							"RANGE_MAX":	-1.570796
+						}, {
+							"NAME":	"Axis",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Y"
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	0.940000,
+							"RANGE_MIN":	0.940000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Circle Path",
+					"PROPERTIES":	[{
+							"NAME":	"Angle Offset",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Axis",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Y"
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	0.940000,
+							"RANGE_MIN":	0.940000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.100000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.500000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.800000,
+							"RANGE_MAX":	1.800000
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	60,
+							"RANGE_MIN":	60,
+							"RANGE_MAX":	60
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	2,
+							"RANGE_MIN":	2,
+							"RANGE_MAX":	7
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.100000,
+							"RANGE_MAX":	0.100000
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"GlintFloater"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0.750000,
+							"RANGE_MAX":	1.250000
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"SunGlow"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.075000,
+							"RANGE_MAX":	0.075000
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}]
+}

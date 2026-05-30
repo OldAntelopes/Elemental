@@ -1,0 +1,221 @@
+{
+	"CONTROL_VALUES":	{
+		"SCALE":	46,
+		"ALPHA":	14,
+		"SPREAD":	17,
+		"PARAM":	64,
+		"BLEND":	0
+	},
+	"CONTENTDATA":	{
+		"NAME":	"Elephantal"
+	},
+	"ELEMENTS":	[{
+			"COMPONENTS":	[]
+		}, {
+			"COMPONENTS":	[{
+					"COMPONENT_TYPE":	"Tint",
+					"PROPERTIES":	[{
+							"NAME":	"A",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	0.674128,
+							"RANGE_MIN":	0.432787,
+							"RANGE_MAX":	0.678689
+						}, {
+							"NAME":	"B",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.891803,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"G",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.904918,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	1
+						}, {
+							"NAME":	"R",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	1
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Offset",
+					"PROPERTIES":	[{
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Y",
+							"BEH_INVERT":	true,
+							"BEH_MODE":	2,
+							"VALUE":	-17.684675,
+							"RANGE_MIN":	-18,
+							"RANGE_MAX":	-1
+						}, {
+							"NAME":	"Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	3,
+							"VALUE":	-0.808269,
+							"RANGE_MIN":	-1,
+							"RANGE_MAX":	-0.500000
+						}]
+				}, {
+					"COMPONENT_TYPE":	"Particle Emitter",
+					"PROPERTIES":	[{
+							"NAME":	"Alpha",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1.500000,
+							"RANGE_MIN":	1.500000,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Bypass",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Emit Freq",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	200,
+							"RANGE_MIN":	200,
+							"RANGE_MAX":	200
+						}, {
+							"NAME":	"Graphic Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Sprite"
+						}, {
+							"NAME":	"Longevity",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0.300000,
+							"RANGE_MIN":	0.100000,
+							"RANGE_MAX":	0.300000
+						}, {
+							"NAME":	"Model Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Particle Fade In",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	10
+						}, {
+							"NAME":	"Particle Rot Speed",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	0,
+							"RANGE_MAX":	0
+						}, {
+							"NAME":	"Particle Type",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"BasicGlow"
+						}, {
+							"NAME":	"Random Init Rot",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Scale",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	1,
+							"RANGE_MIN":	1,
+							"RANGE_MAX":	2
+						}, {
+							"NAME":	"Source Channel",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Spout Source",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0
+						}, {
+							"NAME":	"Sprite",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"#1 Channel Graphic"
+						}, {
+							"NAME":	"Sprite (Default)",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"TEXTVALUE":	"Elephantal"
+						}, {
+							"NAME":	"Temp Aspect Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Edge Override",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Temp Rel Rot Align",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"Vel X",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	0.200000
+						}, {
+							"NAME":	"Vel Y",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	29.424997,
+							"RANGE_MIN":	-1,
+							"RANGE_MAX":	30
+						}, {
+							"NAME":	"Vel Z",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	2,
+							"VALUE":	9.810805,
+							"RANGE_MIN":	-0.200000,
+							"RANGE_MAX":	10
+						}, {
+							"NAME":	"VelX Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelY Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}, {
+							"NAME":	"VelZ Param Mod",
+							"BEH_INVERT":	false,
+							"BEH_MODE":	0,
+							"VALUE":	0
+						}]
+				}]
+		}]
+}
