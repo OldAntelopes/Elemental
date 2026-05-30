@@ -17,7 +17,7 @@ v0.22.0
 - minor/partial refactoring of some common particle features
 - Initialisation status messages on boot window
 - UX: Added 'move to first column' option on channel view -> instance right click popup menu
-- FIXES for:
+- BUGFIXES for:
   - performance mode option sometimes leaving the window expanded
   - particle emitter render targets not getting reset when the graphics device is changed (fixes inconsistent output after changing to a different display)
   - possible crash if any shaders fail to load
@@ -44,12 +44,13 @@ v0.21.5
 - Added multiply blend mode
 - Added concepts of editor and performance mode, which can be selected from dropdown in the midbar. 'Performance mode' will turn off most of the editor display, leaving just the channel view and channel controls panel active. (Turning off some of the editor UI can save a few milliseconds on the frametime, and just makes it easier to keep your windows tidy). 
 - (Full vers) Videos now display their current playback progress etc
-- FIX for non-selectable textboxes in midi mapping editor
-- FIX for Q and W keys causing the rename text input dialog to exit weirdly
-- FIX for the midi mapping selection not being reset when finishing edit
-- FIX for channels using subtractive modes making particle emitters outputting to a source channel not do anything
-- FIX for a newly added instance showing as selected in the channel view but not appearing in the effect stack
-- Fixed a bunch of leaky memory issues and started looking at some of the more gnarly bits left to do with async initialisation and memory consumption
+- BUGFIXES for:
+  - non-selectable textboxes in midi mapping editor
+  - Q and W keys causing the rename text input dialog to exit weirdly
+  - the midi mapping selection not being reset when finishing edit
+  - channels using subtractive modes making particle emitters outputting to a source channel not do anything
+  - a newly added instance showing as selected in the channel view but not appearing in the effect stack
+  - bunch of leaky memory issues and started looking at some of the more gnarly bits left to do with async initialisation and memory consumption
  
 v0.21
 -------
@@ -74,14 +75,15 @@ v0.21
 - Added (dev) menu option for regenerating UIDs (hopefully won't be needed if nothings broken..)
 - Added import/export options for the midi mapping
 - Every time a new instance is activated, older instances that are still in their fadeout transition phase speed up the fade out transition (to help reduce the amount of lingering instances when moving rapidly between em)
-- FIX: for the milk preset browser missing one file from every folder
-- FIX: For certain milkdrop presets leaving the renderer in an invalid state and hence subsequent SourceFilters not always working
-- FIX: For deletion of milk component not cleaning up properly (possible crash)
-- FIX: for using f11 to set display back to the preview window not saving that in settings
-- FIX: for the initial shader parameters for the default source filter not being shown when the component is first added.
-- FIX: for transition time weirdness when rapidly switching between instances in a channel
-- FIX: for crash if selecting 'next instance' on a channel with no instances
-- FIX: for Q and W keys causing the rename text input dialog to exit weirdly
+- BUGFIXES for:
+  - milk preset browser missing one file from every folder
+  - certain milkdrop presets leaving the renderer in an invalid state and hence subsequent SourceFilters not always working
+  - deletion of milk component not cleaning up properly (possible crash)
+  - using f11 to set display back to the preview window not saving that in settings
+  - initial shader parameters for the default source filter not being shown when the component is first added.
+  - transition time weirdness when rapidly switching between instances in a channel
+  - crash if selecting 'next instance' on a channel with no instances
+  - Q and W keys causing the rename text input dialog to exit weirdly
 
 v0.20
 -----
@@ -107,13 +109,14 @@ v0.19
 - Added option for param linkage to circle path and offset, added 'pitch' to the circle path component (rotate around right axis), added playback speed control to videos.
 - Support using drag n drop a .milk file from explorer to playlist or milk component ui
 - Bit of (WIP) foundational work on steamdeck (and relatedly auto-vj) mode - turning off control panel etc. Linked in steam api & input
-- FIX: A few fixes to issues where the backbuffer size or the milk playback size wasnt getting the correct value for the monitor the output is on. Similarly, fixes so the spout output is set correctly. (There remains an issue where spout doesnt always update when switching between displays ; workaround that by restarting app once the display is chosen, until proper fix)
-- FIX: for the pixellate filter not showing the control option in the UI
-- FIX: for mouse cursor frequently not getting set properly
-- FIX: custom aspect applied properly to cam orientated sprites
-- FIX: For various properties sometimes not showing their correct values on load (e.g. some source filter properties, envelope phase, etc)
-- FIX: For crash when selecting and deleting keyframes
-- FIX: For the SrcChan property of any shaders making use of [ELEUI_TEXTURE:..] not loading or displaying properly
+- BUGFIXES for:
+  - issues where the backbuffer size or the milk playback size wasnt getting the correct value for the monitor the output is on. Similarly, fixes so the spout output is set correctly. (There remains an issue where spout doesnt always update when switching between displays ; workaround that by restarting app once the display is chosen, until proper fix)
+  - the pixellate filter not showing the control option in the UI
+  - mouse cursor frequently not getting set properly
+  - custom aspect applied properly to cam orientated sprites
+  - various properties sometimes not showing their correct values on load (e.g. some source filter properties, envelope phase, etc)
+  - crash when selecting and deleting keyframes
+  - the SrcChan property of any shaders making use of [ELEUI_TEXTURE:..] not loading or displaying properly
 
 v0.18
 -----
@@ -153,13 +156,13 @@ Minor things:
 - Angle offset is applied to the circle path position on init so its still at least set when a path using variable speeds is started (this has good use case for when you want reactive speed circle paths that are synced and remain offset..)
 - Particle fields now respect the particle fade-in time setting
 - UX: property settings popup closes when select 'envelope'
-- FIX for FFT Custom -> sensitivity value showing incorrectly when loaded
-- FIX instance filename is set correctly when doing preset 'save as..'
-- FIX: for crash if referencing an empty milk presets folder (e.g if loading a comp from somewhere else that refers to a folder that doesnt exist locally)
-- FIX: for crash if video component refers to a file that doesnt exist locally
-- FIX: for potential crash if midi device state gets out of whack
+- BUGFIXES for:
+  - FFT Custom -> sensitivity value showing incorrectly when loaded
+  - instance filename is set correctly when doing preset 'save as..'
+  - crash if referencing an empty milk presets folder (e.g if loading a comp from somewhere else that refers to a folder that doesnt exist locally)
+  - crash if video component refers to a file that doesnt exist locally
+  - potential crash if midi device state gets out of whack
 
-========
 v0.16
 -----
 - Resizable control panel
@@ -182,13 +185,14 @@ v0.16
 - Don't display the white squares that were showing for thumbnails that were mid-load or had failed to load.
 - Presets: Updated the default Standard Spout Blender .elemental so it has less kaleido and effects, rearranged the startup presets a bit, Updated some presets to fix offset change
 - UI Icons: Legit Tick icon for menus, added nicer folder icon for the preset browser, Indicator on properties that are FFT linked
-- FIX: Few fixes to the camera controller ; focus on origin now works, camera-aligned sprites (mostly) work
-- FIX: for occasional crash when scanning folders and shifting around the browser UI
-- FIX: for the drag n drop highlight window for the milk playlist UI being the wrong size
-- FIX: for source blender getting inputs offset if they werent the same size as the main output backbuffer
-- FIX: for the midi mapping being broken
-- FIX: for the milk preset browser path reverting whenever a path is dragged somewhere
-- FIX: for occasional threaded shutdown crash if folder browser active when quitting app
+- BUGFIXES for:
+  - camera controller ; focus on origin now works, camera-aligned sprites (mostly) work
+  - occasional crash when scanning folders and shifting around the browser UI
+  - the drag n drop highlight window for the milk playlist UI being the wrong size
+  - source blender getting inputs offset if they werent the same size as the main output backbuffer
+  - the midi mapping being broken
+  - the milk preset browser path reverting whenever a path is dragged somewhere
+  - occasional threaded shutdown crash if folder browser active when quitting app
 
 Moved all the milkdrop stuff to the public github
 (Not in demo): (messing about with dmx -DMX raw component for sending DMX512 channel signals out via ftdi (which according to Resolume is (probably rightly) frowned upon coz its niche and awkward, but whatever.. works for me for now.. i have lights i can dick about with and it didnt cost too much))
@@ -196,27 +200,28 @@ Moved all the milkdrop stuff to the public github
 
 v0.15
 ------
-Milk Playlist UI
-Loads of work on the milk preset browser: now recurses & shows folders, (mostly) auto caches and expires preset thumbnails to keep things performant and generally allows ya to explore all those presets nice n easy, lovely jubbly
-Various fixes and additions for multiple monitor support, Added (basic, 1st pass) fullscreen display options to the main menu based on connected output/monitors
-Added camera controller to the demo release
-Rotation affects the instance direction
-Added BPM indicator to midbar
-FIX: Particle Field now clears itself up when an instance is deactivated
-FIX: Change the UI reload so it happens only after a full render loop has completed (to avoid cases where a callback would trigger a UI reload immediately, invalidating the objects that were in the process of handling the callback and producing weird issues like dropdowns randomly expanding etc)
-FIX: for bug where an empty spout input name would cause endless attempts to create new blank spout input sources (until it ran out of texture space and exploded)
-FIX: for crash if moving components between elements and then deleting em
-FIX: for spout output getting interrupted when changing displays
+- Milk Playlist UI
+- Loads of work on the milk preset browser: now recurses & shows folders, (mostly) auto caches and expires preset thumbnails to keep things performant and generally allows ya to explore all those presets nice n easy, lovely jubbly
+- Various fixes and additions for multiple monitor support, Added (basic, 1st pass) fullscreen display options to the main menu based on connected output/monitors
+- Added camera controller to the demo release
+- Rotation affects the instance direction
+- Added BPM indicator to midbar
+- BUGFIXES for
+  - Particle Field now clears itself up when an instance is deactivated
+  - Change the UI reload so it happens only after a full render loop has completed (to avoid cases where a callback would trigger a UI reload immediately, invalidating the objects that were in the process of handling the callback and producing weird issues like dropdowns randomly expanding etc)
+  - bug where an empty spout input name would cause endless attempts to create new blank spout input sources (until it ran out of texture space and exploded)
+  - crash if moving components between elements and then deleting em
+  - spout output getting interrupted when changing displays
 
 v0.14
 -----
-
-FIX: Clicking anywhere outside a modal popup closes the modal popup
-FIX: Made it so the property popup doesnt close immediately when you select things like envelope/fft etc
-FIX: Particle Field updates itself if graphic property is changed
-Added Particle Field component
-Added concept of direction in the effect stack
-Rotation component now has option to align to direction
+- Added Particle Field component
+- Added concept of direction in the effect stack
+- Rotation component now has option to align to direction
+- BUGFIXES for:
+  - Clicking anywhere outside a modal popup closes the modal popup
+  - Made it so the property popup doesnt close immediately when you select things like envelope/fft etc
+  - Particle Field updates itself if graphic property is changed
 
 v0.13
 -----
