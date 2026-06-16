@@ -1,0 +1,2119 @@
+{
+	"COMP_DETAILS":	{
+		"JSON_VERS":	"1",
+		"EXE_VERS":	"0.22.2",
+		"BPM":	120
+	},
+	"CHANNELS":	[{
+			"CHANNEL_NUM":	0,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	48,
+				"ALPHA":	56,
+				"SPREAD":	64,
+				"PARAM":	38,
+				"GRAPHIC_2":	"<Default>",
+				"TRANS_TIME":	6
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"",
+					"DISPNAME":	"Warped Vid",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	48,
+						"ALPHA":	45,
+						"SPREAD":	64,
+						"PARAM":	38,
+						"BLEND":	0,
+						"TRANS_TIME":	44,
+						"TRANS_TYPE":	0
+					},
+					"UID":	78154,
+					"CONTENTDATA":	{
+						"NAME":	"Warped Vid"
+					},
+					"ELEMENTS":	[{
+							"UID":	2789115,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	2789116,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Video",
+									"UID":	2789126,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2466331,
+											"VAL":	0
+										}, {
+											"NAME":	"Playback Mode",
+											"UID":	2466338,
+											"TXTVAL":	"Looping"
+										}, {
+											"NAME":	"Alpha Mod",
+											"UID":	2466335,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Playback Speed",
+											"UID":	2466334,
+											"PARAMLINK":	true,
+											"VAL":	0.250000,
+											"RNG_MIN":	0.250000,
+											"RNG_MAX":	0.750000
+										}, {
+											"NAME":	"Video Name",
+											"UID":	2466332
+										}, {
+											"NAME":	"Video Filename",
+											"UID":	2466333,
+											"TXTVAL":	"Data\\Videos\\vj_clip1.mp4"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2466336,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	2466337,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Restart on activate",
+											"UID":	2466339,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Source Filter",
+									"UID":	2914434,
+									"PROPERTIES":	[{
+											"NAME":	"SrcChan",
+											"UID":	2914432,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	2914425,
+											"VAL":	0
+										}, {
+											"NAME":	"Model 1",
+											"UID":	2914431
+										}, {
+											"NAME":	"Spout 1",
+											"UID":	2914430
+										}, {
+											"NAME":	"Sprite 1",
+											"UID":	2914429
+										}, {
+											"NAME":	"Filter",
+											"UID":	2914426,
+											"TXTVAL":	"HueRotate"
+										}, {
+											"NAME":	"Input",
+											"UID":	2914433,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2914427,
+											"VAL":	3
+										}, {
+											"NAME":	"Output",
+											"UID":	2914428,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"HueShift",
+											"UID":	2914444,
+											"BEH_MODE":	2,
+											"DAMPING_MODE":	2,
+											"VAL":	0.773552,
+											"RNG_MIN":	-1,
+											"RNG_MAX":	2
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Milk",
+									"UID":	2789137,
+									"PROPERTIES":	[{
+											"NAME":	"Current Preset",
+											"UID":	2476261
+										}, {
+											"NAME":	"Bypass",
+											"UID":	2476258,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	2476267,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Playlist Autoplay",
+											"UID":	2476264,
+											"VAL":	0
+										}, {
+											"NAME":	"Preset Selection",
+											"UID":	2476259,
+											"TXTVAL":	"Playlist"
+										}, {
+											"NAME":	"Preset Path",
+											"UID":	2476260,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\Milkdrop2077\\"
+										}, {
+											"NAME":	"Preset",
+											"UID":	2476262,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Reaction\\Liquid Simmering\\LuxXx - gaseous disconuggets.milk"
+										}, {
+											"NAME":	"Playlist Shuffle",
+											"UID":	2476263,
+											"VAL":	0
+										}, {
+											"NAME":	"Alpha Mod",
+											"UID":	2476265,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2476266,
+											"VAL":	1
+										}],
+									"Playlist":	{
+										"Refs":	[{
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Reaction\\Liquid Simmering\\LuxXx - gaseous disconuggets.milk"
+											}]
+									}
+								}, {
+									"COMPONENT_TYPE":	"Source Filter",
+									"UID":	2789147,
+									"PROPERTIES":	[{
+											"NAME":	"SrcChan",
+											"UID":	1129476,
+											"VAL":	3
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1129469,
+											"VAL":	0
+										}, {
+											"NAME":	"Model 1",
+											"UID":	1129475
+										}, {
+											"NAME":	"Spout 1",
+											"UID":	1129474
+										}, {
+											"NAME":	"Sprite 1",
+											"UID":	1129473
+										}, {
+											"NAME":	"gColMode",
+											"UID":	2780141,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Filter",
+											"UID":	1129470,
+											"TXTVAL":	"Displace"
+										}, {
+											"NAME":	"Input",
+											"UID":	1129477,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	1129471,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	1129472,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Displacement Map.Sprite",
+											"UID":	3120348
+										}, {
+											"NAME":	"gScaleY",
+											"UID":	2707215,
+											"VAL":	-0.038776,
+											"RNG_MIN":	-0.500000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Displacement Map.Spout",
+											"UID":	3120349
+										}, {
+											"NAME":	"Displacement Map",
+											"UID":	2707212,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Displacement Map.SrcChan",
+											"UID":	3120350,
+											"VAL":	1
+										}, {
+											"NAME":	"gStrength",
+											"UID":	2707213,
+											"VAL":	1.485714,
+											"RNG_MIN":	0,
+											"RNG_MAX":	4
+										}, {
+											"NAME":	"gScaleX",
+											"UID":	2707214,
+											"VAL":	-0.034694,
+											"RNG_MIN":	-0.500000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"gThreshold",
+											"UID":	2780142,
+											"VAL":	0.151020,
+											"RNG_MIN":	0,
+											"RNG_MAX":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Source Filter",
+									"UID":	3019556,
+									"PROPERTIES":	[{
+											"NAME":	"SrcChan",
+											"UID":	3019554,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	3019547,
+											"VAL":	0
+										}, {
+											"NAME":	"Model 1",
+											"UID":	3019553
+										}, {
+											"NAME":	"Spout 1",
+											"UID":	3019552
+										}, {
+											"NAME":	"Sprite 1",
+											"UID":	3019551
+										}, {
+											"NAME":	"Filter",
+											"UID":	3019548,
+											"TXTVAL":	"HueRotate"
+										}, {
+											"NAME":	"Input",
+											"UID":	3019555,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	3019549,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	3019550,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"HueShift",
+											"UID":	3019566,
+											"VAL":	-0.673159,
+											"RNG_MIN":	-3.141590,
+											"RNG_MAX":	3.141590,
+											"ENVELOPE":	{
+												"SPEED":	0.031250,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	3019546,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	3019543,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	3019535,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	3019536,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	3019540,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	3019537,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	3019539,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	3019538,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X",
+											"UID":	3019541,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	3019545,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	3019542,
+											"VAL":	3,
+											"RNG_MIN":	3,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	3019544,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Emitter",
+									"UID":	2789181,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2476319,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	2476320,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	2476325,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	2852559,
+											"VAL":	0
+										}, {
+											"NAME":	"Vel Y",
+											"UID":	2476342,
+											"VAL":	-1,
+											"RNG_MIN":	-1,
+											"RNG_MAX":	-1
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	2476326
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	2476321,
+											"VAL":	0
+										}, {
+											"NAME":	"Longevity",
+											"UID":	2476335,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	2476322,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	2476323,
+											"VAL":	0
+										}, {
+											"NAME":	"Model Source",
+											"UID":	2476327
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	2476328,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	2476329,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	2476330,
+											"VAL":	0
+										}, {
+											"NAME":	"Emit Freq",
+											"UID":	2476331,
+											"VAL":	60,
+											"RNG_MIN":	60,
+											"RNG_MAX":	60
+										}, {
+											"NAME":	"Particle Type",
+											"UID":	2476332,
+											"TXTVAL":	"BasicGlow"
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	2476333,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	2476334,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Alpha",
+											"UID":	2476336,
+											"BEH_MODE":	2,
+											"VAL":	0.100000,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Scale",
+											"UID":	2476337,
+											"BEH_MODE":	2,
+											"VAL":	1.189147,
+											"RNG_MIN":	1.189147,
+											"RNG_MAX":	1.516688
+										}, {
+											"NAME":	"Vel X",
+											"UID":	2476341,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Vel Z",
+											"UID":	2476343,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	2476344,
+											"VAL":	0
+										}, {
+											"NAME":	"Output Mode",
+											"UID":	2476345
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Emitter",
+									"UID":	3019592,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	3019567,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	3019568,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	3019574,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	3019572,
+											"VAL":	0
+										}, {
+											"NAME":	"Vel Y",
+											"UID":	3019588,
+											"VAL":	-0.500000,
+											"RNG_MIN":	-0.500000,
+											"RNG_MAX":	-0.500000
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	3019575
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	3019569,
+											"VAL":	0
+										}, {
+											"NAME":	"Longevity",
+											"UID":	3019584,
+											"VAL":	0.300000,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	3019570,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	3019571,
+											"VAL":	0
+										}, {
+											"NAME":	"Model Source",
+											"UID":	3019576
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	3019577,
+											"VAL":	3
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	3019578,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	3019579,
+											"VAL":	0
+										}, {
+											"NAME":	"Emit Freq",
+											"UID":	3019580,
+											"VAL":	60,
+											"RNG_MIN":	60,
+											"RNG_MAX":	60
+										}, {
+											"NAME":	"Particle Type",
+											"UID":	3019581,
+											"TXTVAL":	"BasicGlow"
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	3019582,
+											"VAL":	0.010000,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	3019583,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Alpha",
+											"UID":	3019585,
+											"VAL":	0.014147,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.500000,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.946988,
+														"VAL":	0.046875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.954217,
+														"VAL":	1,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Scale",
+											"UID":	3019586,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Vel X",
+											"UID":	3019587,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Vel Z",
+											"UID":	3019589,
+											"VAL":	0,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	3019590,
+											"VAL":	0
+										}, {
+											"NAME":	"Output Mode",
+											"UID":	3019591
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	1,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	60,
+				"ALPHA":	86,
+				"SPREAD":	64,
+				"PARAM":	127,
+				"GRAPHIC_2":	"<Default>",
+				"TRANS_TIME":	30
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"",
+					"DISPNAME":	"3xPath Reactive",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	60,
+						"ALPHA":	116,
+						"SPREAD":	64,
+						"PARAM":	127,
+						"BLEND":	0,
+						"TRANS_TIME":	0,
+						"TRANS_TYPE":	0
+					},
+					"UID":	11391,
+					"CONTENTDATA":	{
+						"NAME":	"3xPath Reactive"
+					},
+					"ELEMENTS":	[{
+							"UID":	1835745,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	1835746,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	2816173,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2816167,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	2816168,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Pitch",
+											"UID":	2816170,
+											"VAL":	0.100000,
+											"RNG_MIN":	-1.500000,
+											"RNG_MAX":	1.500000
+										}, {
+											"NAME":	"Scale",
+											"UID":	2816169,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Speed",
+											"UID":	2816171,
+											"VAL":	0,
+											"RNG_MIN":	0.130000,
+											"RNG_MAX":	0.130000
+										}, {
+											"NAME":	"Axis",
+											"UID":	2816172,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	3116272,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	3116269,
+											"VAL":	0.029555,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.050000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	3116261,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	3116262,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	3116266,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	3116263,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	3116265,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	3116264,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X",
+											"UID":	3116267,
+											"VAL":	-0.038742,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.062500,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	3116271,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	3116268,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	3116270,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835776,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	1,
+											"RNG_MIN":	0.600000,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	0,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	1,
+											"VAL":	0,
+											"RNG_MIN":	0.063380,
+											"RNG_MAX":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835798,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	2852167,
+											"VAL":	0
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1,
+											"RNG_MIN":	1.100000,
+											"RNG_MAX":	1.100000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	5.037839,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	35,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2308220,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	0,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.500000
+										}]
+								}]
+						}, {
+							"UID":	1835816,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	3116284,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	3116281,
+											"VAL":	-0.012315,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.030000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	3116273,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	3116274,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	3116278,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	3116275,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	3116277,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	3116276,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X",
+											"UID":	3116279,
+											"VAL":	-0.019060,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.040000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	3116283,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	3116280,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	3116282,
+											"VAL":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835835,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	36,
+											"RNG_MIN":	36,
+											"RNG_MAX":	36
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0,
+											"RNG_MIN":	0.400000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	5,
+											"DAMPING_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	5,
+											"VAL":	1,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	1.300000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835845,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1772836,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1772840,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1772842,
+											"VAL":	0.100000,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Scale",
+											"UID":	1772841,
+											"VAL":	0,
+											"RNG_MIN":	0.050000,
+											"RNG_MAX":	0.050000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1772843,
+											"VAL":	0,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1772844,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835856,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0,
+											"RNG_MIN":	0.626761,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	200,
+											"FFTCUSTOM_MAX":	210,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	0,
+											"RNG_MIN":	0.007042,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	1,
+											"VAL":	0.229707,
+											"RNG_MIN":	0.179577,
+											"RNG_MAX":	1,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.549398,
+														"VAL":	0.062500,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835878,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	2852219,
+											"VAL":	0
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0,
+											"RNG_MIN":	0.250000,
+											"RNG_MAX":	0.250000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	180,
+											"FFTCUSTOM_MAX":	220,
+											"FFTCUSTOM_SCALAR":	6,
+											"VAL":	1.377149,
+											"RNG_MIN":	0.632328,
+											"RNG_MAX":	18,
+											"ENVELOPE":	{
+												"SPEED":	1,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	1
+													}, {
+														"TIME":	0.428916,
+														"VAL":	0.078125,
+														"CURVE":	1
+													}, {
+														"TIME":	0.734940,
+														"VAL":	0.171875,
+														"CURVE":	1
+													}, {
+														"TIME":	0.918072,
+														"VAL":	0.312500,
+														"CURVE":	1
+													}, {
+														"TIME":	0.975904,
+														"VAL":	0.578125,
+														"CURVE":	1
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	1
+													}]
+											}
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2308284,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}]
+								}]
+						}, {
+							"UID":	1835879,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Transform",
+									"UID":	1944036,
+									"PROPERTIES":	[{
+											"NAME":	"Z",
+											"UID":	1944033,
+											"VAL":	0.009810,
+											"RNG_MIN":	-0.050000,
+											"RNG_MAX":	0.050000,
+											"ENVELOPE":	{
+												"SPEED":	0.033000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1944022,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot X",
+											"UID":	1944023,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Rot",
+											"UID":	1944027,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Y",
+											"UID":	1944024,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Dir Align",
+											"UID":	1944026,
+											"VAL":	0
+										}, {
+											"NAME":	"Rot Z",
+											"UID":	1944025,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"X",
+											"UID":	1944031,
+											"VAL":	-0.019060,
+											"RNG_MIN":	-0.100000,
+											"RNG_MAX":	0.100000,
+											"ENVELOPE":	{
+												"SPEED":	0.040000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	1,
+														"CURVE":	3
+													}, {
+														"TIME":	0.500000,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Offset Dir Align",
+											"UID":	1944035,
+											"VAL":	0
+										}, {
+											"NAME":	"Y",
+											"UID":	1944032,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Absolute Pos",
+											"UID":	1944034,
+											"VAL":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835898,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747414,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1747418,
+											"VAL":	36,
+											"RNG_MIN":	36,
+											"RNG_MAX":	36
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1747420,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747419,
+											"VAL":	0,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1747421,
+											"BEH_MODE":	4,
+											"DAMPING_MODE":	4,
+											"VAL":	1,
+											"RNG_MIN":	0.400000,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Axis",
+											"UID":	1747422,
+											"TXTVAL":	"Y"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835908,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1772836,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1772840,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1772842,
+											"VAL":	-0.400000,
+											"RNG_MIN":	-0.500000,
+											"RNG_MAX":	0.100000
+										}, {
+											"NAME":	"Scale",
+											"UID":	1772841,
+											"VAL":	0,
+											"RNG_MIN":	-0.150000,
+											"RNG_MAX":	-0.150000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1772843,
+											"VAL":	0,
+											"RNG_MIN":	0.310000,
+											"RNG_MAX":	0.310000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1772844,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Tint",
+									"UID":	1835919,
+									"PROPERTIES":	[{
+											"NAME":	"B",
+											"UID":	1749022,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0,
+											"RNG_MIN":	0.400000,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"R",
+											"UID":	1749020,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749015,
+											"VAL":	0
+										}, {
+											"NAME":	"G",
+											"UID":	1749021,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0,
+											"RNG_MIN":	0.200000,
+											"RNG_MAX":	0.600000
+										}, {
+											"NAME":	"Absolute",
+											"UID":	1749024,
+											"VAL":	0
+										}, {
+											"NAME":	"A",
+											"UID":	1749023,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	300,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	2,
+											"VAL":	0,
+											"RNG_MIN":	0.080986,
+											"RNG_MAX":	1
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Clustered Path",
+									"UID":	1835941,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1747424,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	1747426,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	1747431,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	2852277,
+											"VAL":	0
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	1747432
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	1747427,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	1747428,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1747429,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Out",
+											"UID":	1748539,
+											"VAL":	1,
+											"RNG_MIN":	1.800000,
+											"RNG_MAX":	1.800000
+										}, {
+											"NAME":	"Model Source",
+											"UID":	1747433
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	1747434,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	1747435,
+											"TXTVAL":	"Sprite"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	1747425,
+											"VAL":	0
+										}, {
+											"NAME":	"Fade Hold",
+											"UID":	1748538,
+											"VAL":	0,
+											"RNG_MIN":	0.800000,
+											"RNG_MAX":	0.800000
+										}, {
+											"NAME":	"Trail Scale",
+											"UID":	1748540,
+											"BEH_MODE":	5,
+											"FFTCUSTOM_MIN":	340,
+											"FFTCUSTOM_MAX":	400,
+											"FFTCUSTOM_SCALAR":	3,
+											"VAL":	1,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	3
+										}, {
+											"NAME":	"Alpha",
+											"UID":	1747436,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Num Particles",
+											"UID":	2308354,
+											"VAL":	20,
+											"RNG_MIN":	5,
+											"RNG_MAX":	40
+										}, {
+											"NAME":	"Field Scale",
+											"UID":	1747437,
+											"VAL":	5,
+											"RNG_MIN":	5,
+											"RNG_MAX":	5
+										}, {
+											"NAME":	"Scale",
+											"UID":	1747438,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	1747439,
+											"VAL":	0,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	1747440,
+											"VAL":	0,
+											"RNG_MIN":	-20,
+											"RNG_MAX":	20
+										}, {
+											"NAME":	"Distribution Range",
+											"UID":	1748546,
+											"VAL":	2,
+											"RNG_MIN":	2,
+											"RNG_MAX":	2
+										}]
+								}]
+						}, {
+							"UID":	1835942,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	2154345,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	2154336,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	2154340,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Pitch",
+											"UID":	2154342,
+											"VAL":	0.100000,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Scale",
+											"UID":	2154341,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Speed",
+											"UID":	2154343,
+											"BEH_MODE":	1,
+											"VAL":	0,
+											"RNG_MIN":	0.300000,
+											"RNG_MAX":	0.400000
+										}, {
+											"NAME":	"Axis",
+											"UID":	2154344,
+											"TXTVAL":	"X"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Circle Path",
+									"UID":	1835808,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	1749033,
+											"VAL":	0
+										}, {
+											"NAME":	"Angle Offset",
+											"UID":	1749037,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Pitch",
+											"UID":	1749039,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Scale",
+											"UID":	1749038,
+											"VAL":	1,
+											"RNG_MIN":	1.600000,
+											"RNG_MAX":	1.600000
+										}, {
+											"NAME":	"Speed",
+											"UID":	1749040,
+											"BEH_INVERT":	true,
+											"BEH_MODE":	1,
+											"VAL":	0,
+											"RNG_MIN":	-0.600000,
+											"RNG_MAX":	-0.200000
+										}, {
+											"NAME":	"Axis",
+											"UID":	1749041,
+											"TXTVAL":	"Z"
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Camera Controller",
+									"UID":	1835815,
+									"PROPERTIES":	[{
+											"NAME":	"Dir Pos Offset",
+											"UID":	1749028,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	1749026,
+											"VAL":	0
+										}, {
+											"NAME":	"Blend",
+											"UID":	1749027,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Up Pos Offset",
+											"UID":	1749029,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Right Pos Offset",
+											"UID":	1749030,
+											"VAL":	0,
+											"RNG_MIN":	0,
+											"RNG_MAX":	0
+										}, {
+											"NAME":	"Origin focus",
+											"UID":	1749031,
+											"VAL":	1
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	2,
+			"CONTROL_VALUES":	{
+				"GRAPHIC":	"<Default>",
+				"SCALE":	70,
+				"ALPHA":	116,
+				"SPREAD":	64,
+				"PARAM":	64,
+				"GRAPHIC_2":	"<Default>",
+				"TRANS_TIME":	27
+			},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[{
+					"PRESET_FILE":	"",
+					"DISPNAME":	"Light Milk",
+					"ACTIVE":	true,
+					"CONTROL_VALUES":	{
+						"SCALE":	70,
+						"ALPHA":	94,
+						"SPREAD":	64,
+						"PARAM":	64,
+						"BLEND":	0,
+						"TRANS_TIME":	62,
+						"TRANS_TYPE":	0
+					},
+					"UID":	78044,
+					"CONTENTDATA":	{
+						"NAME":	"Light Milk"
+					},
+					"ELEMENTS":	[{
+							"UID":	78046,
+							"COMPONENTS":	[]
+						}, {
+							"UID":	78048,
+							"COMPONENTS":	[{
+									"COMPONENT_TYPE":	"Milk",
+									"UID":	78060,
+									"PROPERTIES":	[{
+											"NAME":	"Current Preset",
+											"UID":	78063
+										}, {
+											"NAME":	"Bypass",
+											"UID":	78062,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	78064,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"Playlist Autoplay",
+											"UID":	78066,
+											"VAL":	0
+										}, {
+											"NAME":	"Preset Selection",
+											"UID":	78070,
+											"TXTVAL":	"Single Preset"
+										}, {
+											"NAME":	"Preset Path",
+											"UID":	78069,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\Isoceles\\Dancer\\Glowsticks\\"
+										}, {
+											"NAME":	"Preset",
+											"UID":	78068,
+											"TXTVAL":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Particles\\Swarm\\fewgasm drugged by kenyans.milk"
+										}, {
+											"NAME":	"Playlist Shuffle",
+											"UID":	78067,
+											"VAL":	0
+										}, {
+											"NAME":	"Alpha Mod",
+											"UID":	78061,
+											"VAL":	0,
+											"RNG_MIN":	0.500000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	78065,
+											"VAL":	0
+										}],
+									"Playlist":	{
+										"Refs":	[{
+												"Preset":	"Data\\Presets\\Milkdrop2\\StarterPack1\\Particles\\Swarm\\fewgasm drugged by kenyans.milk"
+											}]
+									}
+								}, {
+									"COMPONENT_TYPE":	"Source Filter",
+									"UID":	78081,
+									"PROPERTIES":	[{
+											"NAME":	"SrcChan",
+											"UID":	78096,
+											"VAL":	0
+										}, {
+											"NAME":	"Bypass",
+											"UID":	78088,
+											"VAL":	0
+										}, {
+											"NAME":	"Model 1",
+											"UID":	78091
+										}, {
+											"NAME":	"Spout 1",
+											"UID":	78094
+										}, {
+											"NAME":	"Sprite 1",
+											"UID":	78095
+										}, {
+											"NAME":	"Filter",
+											"UID":	78089,
+											"TXTVAL":	"RadialBlur"
+										}, {
+											"NAME":	"Input",
+											"UID":	78090,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	78093,
+											"VAL":	0
+										}, {
+											"NAME":	"Output",
+											"UID":	78092,
+											"TXTVAL":	"Source Channel"
+										}, {
+											"NAME":	"BlurStrength",
+											"UID":	78087,
+											"VAL":	0.169796,
+											"RNG_MIN":	0.169796,
+											"RNG_MAX":	0.753878,
+											"ENVELOPE":	{
+												"SPEED":	0.500000,
+												"PHASE_OFFSET":	0,
+												"KEYFRAMES":	[{
+														"TIME":	0,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	0.746988,
+														"VAL":	0,
+														"CURVE":	3
+													}, {
+														"TIME":	1,
+														"VAL":	1,
+														"CURVE":	3
+													}]
+											}
+										}, {
+											"NAME":	"Blur Centre.x",
+											"UID":	78083,
+											"VAL":	0.497959,
+											"RNG_MIN":	0,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Blur Centre.y",
+											"UID":	78085,
+											"VAL":	0.502041,
+											"RNG_MIN":	0,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"OverrideAlpha",
+											"UID":	156708,
+											"VAL":	0
+										}]
+								}, {
+									"COMPONENT_TYPE":	"Particle Emitter",
+									"UID":	78124,
+									"PROPERTIES":	[{
+											"NAME":	"Bypass",
+											"UID":	78126,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Edge Override",
+											"UID":	78143,
+											"VAL":	0
+										}, {
+											"NAME":	"Sprite",
+											"UID":	78139,
+											"TXTVAL":	"#1 Channel Graphic"
+										}, {
+											"NAME":	"Temp No Cam Align",
+											"UID":	2852486,
+											"VAL":	0
+										}, {
+											"NAME":	"Vel Y",
+											"UID":	78146,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Spout Source",
+											"UID":	78138
+										}, {
+											"NAME":	"Temp Aspect Override",
+											"UID":	78142,
+											"VAL":	0
+										}, {
+											"NAME":	"Longevity",
+											"UID":	78129,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.300000
+										}, {
+											"NAME":	"Temp Rel Rot Align",
+											"UID":	78144,
+											"VAL":	0
+										}, {
+											"NAME":	"Temp Ignore Ch Alpha",
+											"UID":	1363154,
+											"VAL":	0
+										}, {
+											"NAME":	"Model Source",
+											"UID":	78130
+										}, {
+											"NAME":	"SrcChan",
+											"UID":	78141,
+											"VAL":	0
+										}, {
+											"NAME":	"Graphic Type",
+											"UID":	78128,
+											"TXTVAL":	"Source"
+										}, {
+											"NAME":	"Random Init Rot",
+											"UID":	78136,
+											"VAL":	0
+										}, {
+											"NAME":	"Emit Freq",
+											"UID":	78127,
+											"VAL":	60,
+											"RNG_MIN":	60,
+											"RNG_MAX":	60
+										}, {
+											"NAME":	"Particle Type",
+											"UID":	78135,
+											"TXTVAL":	"BasicGlow"
+										}, {
+											"NAME":	"Particle Fade In",
+											"UID":	78133,
+											"VAL":	0,
+											"RNG_MIN":	0.010000,
+											"RNG_MAX":	0.010000
+										}, {
+											"NAME":	"Particle Rot Speed",
+											"UID":	78134,
+											"VAL":	0,
+											"RNG_MIN":	0.100000,
+											"RNG_MAX":	0.500000
+										}, {
+											"NAME":	"Alpha",
+											"UID":	78125,
+											"VAL":	1,
+											"RNG_MIN":	1.500000,
+											"RNG_MAX":	2
+										}, {
+											"NAME":	"Scale",
+											"UID":	78137,
+											"VAL":	1,
+											"RNG_MIN":	1,
+											"RNG_MAX":	1
+										}, {
+											"NAME":	"Vel X",
+											"UID":	78145,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Vel Z",
+											"UID":	78147,
+											"VAL":	0,
+											"RNG_MIN":	-0.200000,
+											"RNG_MAX":	0.200000
+										}, {
+											"NAME":	"Output Channel Num",
+											"UID":	78131,
+											"VAL":	0
+										}, {
+											"NAME":	"Output Mode",
+											"UID":	78132
+										}]
+								}]
+						}]
+				}]
+		}, {
+			"CHANNEL_NUM":	3,
+			"CONTROL_VALUES":	{
+		},
+			"CHAN_SET":	{
+				"CONLOCK":	false
+			},
+			"INSTANCES":	[]
+		}]
+}
